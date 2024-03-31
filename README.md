@@ -27,3 +27,16 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+# Assignment Status
+
+## Completion Status: 70%
+
+### Pending Tasks:
+
+1. Verify Email Screen & Functionality
+2. Pagination
+   - Implement pagination logic with respect to page numbers. Currently, only next page and previous page navigation is implemented.
+3. Token Management
+   - Implement logic for using refresh tokens to generate short-lived access tokens.
+   - Implement automatic session renewal functionality.

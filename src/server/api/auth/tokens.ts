@@ -12,7 +12,7 @@ interface TokenPayload {
 
 // Define options for the tokens (optional)
 const accessTokenOptions: jwt.SignOptions = {
-    expiresIn: '15m', // Access token expires in 15 minutes
+    expiresIn: '2h', // Access token expires in 15 minutes
     // You can include additional options as needed
 };
 
