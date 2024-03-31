@@ -36,8 +36,8 @@ CREATE TABLE `UserCategoryMapping` (
 CREATE TABLE `Token` (
     `id` INTEGER NOT NULL AUTO_INCREMENT,
     `user_id` INTEGER NOT NULL,
-    `access_token` VARCHAR(191) NOT NULL,
-    `refresh_token` VARCHAR(191) NOT NULL,
+    `access_token` VARCHAR(191) NULL,
+    `refresh_token` VARCHAR(191) NULL,
     `created_at` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
     `updated_at` DATETIME(3) NOT NULL,
 

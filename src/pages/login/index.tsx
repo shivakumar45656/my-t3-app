@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../../components/header";
 
 import { api } from "~/utils/api";
@@ -13,6 +13,12 @@ export default function signUp() {
   const [errMsg, setErrMsg] = useState("");
 
   const loginApi = api.user.login.useMutation();
+
+  useEffect(() => {
+    if (loginRedirect) {
+      location.href = "/catalogue";
+    }
+  }, [loginRedirect]);
 
   const loginUser = async (user: any) => {
     await loginApi.mutate(user, {

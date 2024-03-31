@@ -141,7 +141,7 @@ export const deleteFromCatalogue = async ({ ctx, input }: any) => {
       },
     });
     return {
-      status: 201,
+      status: 200,
       message: "remove from cart",
     };
   }
