@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Header from "../../components/header";
 
 import { api } from "~/utils/api";
-import { text } from "stream/consumers";
 
 export let token: string = "";
 
@@ -30,7 +29,9 @@ export default function catalogue() {
 
   useEffect(() => {
     const data = catelogueResult.data?.pages[currentPage]?.items ?? [];
-    setcurremtItems(data);
+    if (data.length > 0) {
+      setcurremtItems(data);
+    }
   }, [catelogueResult.data, currentPage]);
 
   useEffect(() => {
