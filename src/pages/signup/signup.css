@@ -1,0 +1,60 @@
+.create-account-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  height: 36px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  padding-top: 10px;
+}
+
+.formContainer {
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  position: absolute;
+  padding: 20px 30px 20px 30px;
+  margin-top: 60px;
+  width: 400px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 1px solid #c1c1c1;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+}
+
+.button {
+  border: 1px solid black;
+  width: 100%;
+  margin: 15px 0px 15px 0px;
+  padding: 8px 0 8px 0;
+  background-color: #000000;
+  border-radius: 4px;
+  font-size: small;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
